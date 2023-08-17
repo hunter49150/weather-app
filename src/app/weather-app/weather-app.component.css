@@ -1,0 +1,143 @@
+.main-body{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+:root{
+    --blue-1:#3c429e;
+    --blue-2:#4c52ad;
+    --yellow-1:#fac742;
+    --white:#fff;
+    --grey-1:#ededed;
+    --shadow-dark:rgba(0,0,0,0.3);
+    --shadow-light:rgba(255,255,255,0.1);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 400px;
+    height: 80vh;
+    background-color: #4c52ad;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--shadow-dark);
+}
+.upper-data{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.lower-data{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.upper-data img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+
+}
+.weather-data{
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ededed;
+}
+.location{
+    font-size: 2em;
+    margin-top: 2em;
+}
+.temperature{
+    font-size: 4em;
+    margin-bottom: 2em;
+}
+.more-info-label{
+    color: #ededed;
+
+}
+.more-info-container{
+    flex: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.info-block-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-block-label strong{
+    width: 1.2em;
+}
+.info-block-label span{
+    font-size: 0.8em;
+    color: #ededed;
+}
+.info-block-value{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ededed;
+    font-size: 1.1em;
+
+
+}
+.search{
+    margin-bottom: 4em;
+    text-align: center;
+
+}
+.search input{
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    color: #ededed;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 1em;
+}
