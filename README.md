@@ -1,6 +1,6 @@
-# Weather-App
+# Weather-App Project Creation
 
-## OmnifyWeatherAppTask
+
 
 Angular and Weather Api
 
